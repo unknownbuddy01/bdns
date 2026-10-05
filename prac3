@@ -1,0 +1,12 @@
+Practical 3 – Aggregate Functions
+
+Insert collection in the database and display all the records.
+1. Group by function to get count.
+2. Sum function.
+3. Avg function.
+1. Min function
+2. Max function.
+3. First function
+4. Last function
+5. Push function
+6. addToSet function 
