@@ -1,0 +1,6 @@
+3. Insert the documents
+4. Update the country to UK for all female users.
+5. Add the new field company to all the documents.
+6. Delete all the documents where Gender = ‘M’.
+1. Find out a count of female users who stay in either India or USA.
+2. Display the first name and age of all female employees.
