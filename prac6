@@ -1,0 +1,64 @@
+6.Python.
+
+1. insert
+from pymongo import MongoClient
+client = MongoClient('localhost',27017)
+db = client.TYITDB239720
+def insert():
+  try:
+    name1 = input("Enter the Name:")
+    age1 = input("Enter the Age:")
+    dept1 = input("Enter the Department:")
+    pin1 = input("Enter the Pin No:")
+    db.MyCol.insert_one({
+      "name":name1,
+      "age":age1,
+      "dept":dept1,
+      "pin":pin1
+        })
+    print("Inserted data successfully")
+  except Exception:
+    print(str(e))
+insert()
+
+2. update()
+from pymongo import MongoClient
+client = MongoClient('localhost',27017)
+db = client.TYITDB239720
+def update():
+  try:
+    name1 = input("Enter the Name:")
+    age1 = input("Enter the Age to update:")
+    db.MyCol.update_one({"name":name1},{"$set":{"age":age1}})
+    print("\nRecords updated successfully\n")
+  except Exception:
+    print(str(e))
+update()
+
+3. Retrieve
+from pymongo import MongoClient
+client = MongoClient('localhost',27017)
+db = client.TYITDB239720
+def read():
+  try:
+    Col = db.MyCol.find()
+    print("\nAll data from database TYITDB239720:")
+    for MyCol in Col:
+      print(MyCol)
+  except Exception:
+    print(str(e))
+read()
+
+4. delete
+
+from pymongo import MongoClient
+client = MongoClient('localhost',27017)
+db = client.TYITDB239720
+def delete():
+  try:
+    name1 = input("Enter the name:")
+    db.MyCol.delete_one({"name":name1})
+    print("\nData deleted successfully")
+  except Exception:
+    print(str(e))
+delete()
