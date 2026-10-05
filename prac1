@@ -1,0 +1,10 @@
+A.  Write a MongoDB query to create and drop database. 
+B. Write a MongoDB query to create, display and drop collection. 
+C. Write a MongoDB query to insert, query, update and delete a document. 
+D.  Employee Queries 
+1) Insert and display the documents in the Employee collection. 
+2) Display details of employees who live in Mumbai. 
+3) Display details of employee staying in Kurla and salary greater than 19000 
+4) Display details of the employee whose salary is greater than equal 10000 but less than 20000. 
+5) Display details of employees staying in either thane or mumbai and salary greater than 10000. 
+6) Display details of employee whose salary is not equal to 10000 and working in either developer or tester department. 
