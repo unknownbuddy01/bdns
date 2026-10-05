@@ -1,0 +1,82 @@
+Practical 1    MongoDB Basics:1
+A. Write a MongoDB query to create and drop database.
+B. Write a MongoDB query to create, display and drop collection.
+C. Write a MongoDB query to insert, query, update and delete a document.
+D. Employee Queries     
+  1) Insert and display the documents in the Employee collection.
+  2) Display details of employees who live in Mumbai.
+  3) Display details of employee staying in Kurla and salary greater than 19000
+  4) Display details of the employee whose salary is greater than equal 10000 but less than 20000.
+  5) Display details of employees staying in either thane or mumbai and salary greater than 10000.
+  6) Display details of employee whose salary is not equal to 10000 and working in either developer or tester department.
+
+Practical 2    MongoDB Basics:2
+3. Insert the documents
+4. Update the country to UK for all female users
+5. Add the new field company to all the documents
+6. Delete all the documents where Gender = ‘M’
+  1. Find out a count of female users who stay in either India or USA.
+  2. Display the first name and age of all female employees.
+
+Practical 3   Aggregate Functions
+Insert collection in the database and display all the records.
+1. Group by function to get count.
+2. Sum function.
+3. Avg function
+  1. Min function
+  2. Max function.
+  3. First function
+  4. Last function
+  5. Push function
+  6. addToSet function
+
+Practical 4   java and MongoDB
+
+1. Insert the document in MongoDB using Java.
+1.Update the document in MongoDB using Java.
+1. Retrieve the document in MongoDB using Java.
+1. Delete the document in MongoDB using Java.
+
+Practical 5  PHP
+php_mongo.dll ---> copy this file and paste it in xampp--> php--> ext
+Edit the configuration --> xampp --> php ---> php(Type:
+Configuration setting)
+  2. update.php
+  3. retrieve.php
+  4. delete.php
+
+Practical 6   Python
+  1. insert
+  2. update()
+  3. Retrieve
+  4. delete
+
+Practical 7
+1. Write a jQuery to check the contents of the elements on the
+button click.
+2. Write a jQuery to select elements by class name, id and element
+names.
+3. Write jQuery to show the use of click(), hover(), on(),
+trigger(),off() events.
+1. Write a jQuery to create animated show hide effect.
+1. Write a jQuery to create a simple toggle effect.
+1. Write a jQuery to create fade-in and fade-out effect
+1. Write a jQuery to create fade toggle effect.
+1. Write a jQuery to create slide-up and slide-down effect.
+1. Write a jQuery to create slide toggle effect
+1. Write a jQuery to create Mouse Event.
+
+Practical 8
+1. Write a jQuery to create animation effect.
+1. Write a jQuery to animate multiple css properties
+1. Write a jQuery to perform method of chaining.
+
+Practical 9
+1. Write a jQuery effect method with a callback function.
+1. Write a jQuery to get and set text context of the elements.
+1. Write a jQuery to get and set HTML contents of the
+elements.
+
+Practical 10  JSON
+Creating JSON
+Parsing JSON
