@@ -30,7 +30,7 @@ cmd:
 C:\Users\Admin\Desktop\MongoDB Practicals>java insert
 cmd:
 show dbs
-use db_name
+use db_name (TYITDB239720)
 show collections
 db.myCol.find().pretty()
 
@@ -63,7 +63,7 @@ C:\Users\Admin\Desktop\MongoDB Practicals>javac update.java
 C:\Users\Admin\Desktop\MongoDB Practicals>java update
 cmd:
 show dbs
-use db_name
+use db_name (TYITDB239720)
 show collections
 db.myCol.find().pretty()
 
@@ -129,6 +129,6 @@ C:\Users\Admin\Desktop\MongoDB Practicals>java delete
 
 cmd:
 show dbs
-use db_name
+use db_name (TYITDB239720)
 show collections
 db.myCol.find().pretty()
