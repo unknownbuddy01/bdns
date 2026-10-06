@@ -1,5 +1,5 @@
 3. Insert the documents
-use db_name
+use db_name (Data)
 db.col.insertMany([{Name:"Romal",Age:20,Country:"India",Gender:"Female"},{Name:"Raj",Age:12,Country:"Russia",Gender:"Male"},{Name:"Sujal",Age:25,Country:"USA",Gender:"Male"},{Name:"Sara",Age:65,Country:"India",Gender:"Female"},{Name:"Koyal",Age:30,Country:"USA",Gender:"Female"}])
 db.col.find()
 
