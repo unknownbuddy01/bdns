@@ -4,6 +4,7 @@ php_mongo.dll ---> copy this file and paste it in xampp--> php--> ext
 Edit the configuration --> xampp --> php ---> php(Type:
 Configuration setting)
 
+extension=php mongo.dll
 Save Files at the location:
 C:\xampp\htdocs\
 Execute:
@@ -32,6 +33,12 @@ $col -> insert($doc);
 echo "\nDocument inserted successfully";
 ?>
 
+cmd:
+MongoDB Enterprise > show dbs
+                     use db_name (MYDB239720)
+                     show collections
+                     db.MyCol.find().pretty()
+
 2. update.php
 <?php
 $m = new MongoClient();
@@ -43,6 +50,11 @@ echo "\nCollection selected successfully";
 $col -> update(array( "name" => "Romal"),array('$set'=>array("age" => 19)));
 echo "\nDocument updated successfully";
 ?>
+cmd:
+MongoDB Enterprise > show dbs
+                     use db_name (MYDB239720)
+                     show collections
+                     db.MyCol.find().pretty()
 
 3. retrieve.php
 <?php
@@ -74,3 +86,8 @@ echo "\nCollection selected successfully";
 $col -> remove(array( "name" => "Romal"));
 echo "\nDocument deleted successfully";
 ?>
+cmd:
+MongoDB Enterprise > show dbs 
+                     use db_name (MYDB239720)
+                     show collections
+                     db.MyCol.find().pretty()
