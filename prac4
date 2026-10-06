@@ -26,6 +26,13 @@ public class insert
   }
 }
 Output:
+cmd:
+C:\Users\Admin\Desktop\MongoDB Practicals>java insert
+cmd:
+show dbs
+use db_name
+show collections
+db.myCol.find().pretty()
 
 1.Update the document in MongoDB using Java.
 
@@ -51,6 +58,14 @@ public class update
   }
 }
 Output:
+cmd:
+C:\Users\Admin\Desktop\MongoDB Practicals>javac update.java
+C:\Users\Admin\Desktop\MongoDB Practicals>java update
+cmd:
+show dbs
+use db_name
+show collections
+db.myCol.find().pretty()
 
 1. Retrieve the document in MongoDB using Java
 
@@ -82,6 +97,9 @@ public class retrieve
   }
 }
 Output:
+cmd:
+C:\Users\Admin\Desktop\MongoDB Practicals>javac retrieve.java
+C:\Users\Admin\Desktop\MongoDB Practicals>java retrieve
 
 1. Delete the document in MongoDB using Java.
 
@@ -105,3 +123,12 @@ public class delete
   }
 }
 Output:
+cmd :
+C:\Users\Admin\Desktop\MongoDB Practicals>javac delete.java
+C:\Users\Admin\Desktop\MongoDB Practicals>java delete
+
+cmd:
+show dbs
+use db_name
+show collections
+db.myCol.find().pretty()
