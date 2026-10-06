@@ -1,6 +1,6 @@
 A.  Write a MongoDB query to create and drop database. 
 show dbs
-use db_name
+use db_name (Romal)
 show dbs
 db.createCollection
 show collections
@@ -8,14 +8,14 @@ show dbs
 db.dropDatabase()
 
 B. Write a MongoDB query to create, display and drop collection. 
-use db_name
+use db_name (Romal)
 show collections
 db.createCollections
 show collections
 db.Collection_name.drop()
 
 C. Write a MongoDB query to insert, query, update and delete a document. 
-use db_name
+use db_name (Romal)
 db.Doc.insert({Name:"Romal",Age:10})
 db.Doc.find()
 db.Doc.remove()
