@@ -1,6 +1,20 @@
 3. Insert the documents
+use db_name
+db.col.insertMany([{Name:"Romal",Age:20,Country:"India",Gender:"Female"},{Name:"Raj",Age:12,Country:"Russia",Gender:"Male"},{Name:"Sujal",Age:25,Country:"USA",Gender:"Male"},{Name:"Sara",Age:65,Country:"India",Gender:"Female"},{Name:"Koyal",Age:30,Country:"USA",Gender:"Female"}])
+db.col.find()
+
 4. Update the country to UK for all female users.
+db.col.updateMany({Gender:"Female"},{$set:{Country:"UK"}})
+db.col.find()
+
 5. Add the new field company to all the documents.
+db.col.updateMany({},{$set:{Company:"Wipro"}})
+db.col.find()
+
 6. Delete all the documents where Gender = ‘M’.
-1. Find out a count of female users who stay in either India or USA.
-2. Display the first name and age of all female employees.
+db.col.remove({"Gender":"Male"})
+db.col.find()
+  1. Find out a count of female users who stay in either India or USA.
+  db.col.find({$or:[{Country:"India"},{Country:"USA"}],Gender:"Female"}).count()
+  2. Display the first name and age of all female employees.
+  db.col.find({Gender:"Female"},{Name:1,Age:1})
