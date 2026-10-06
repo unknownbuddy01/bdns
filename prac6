@@ -20,6 +20,10 @@ def insert():
   except Exception:
     print(str(e))
 insert()
+CMD: show dbs
+     use db_name (TYITDB239720)
+     show collections
+     db.MyCol.find()
 
 2. update()
 from pymongo import MongoClient
@@ -34,6 +38,10 @@ def update():
   except Exception:
     print(str(e))
 update()
+CMD: show dbs
+     use db_name (TYITDB239720)
+     show collections
+     db.MyCol.find()
 
 3. Retrieve
 from pymongo import MongoClient
@@ -48,6 +56,8 @@ def read():
   except Exception:
     print(str(e))
 read()
+CND:
+All data deom database TYITDB239720:
 
 4. delete
 
@@ -62,3 +72,7 @@ def delete():
   except Exception:
     print(str(e))
 delete()
+CMD: show dbs
+     use db_name (TYITDB239720)
+     show collections
+     db.MyCol.find()
